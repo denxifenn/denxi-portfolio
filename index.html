@@ -1,27 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+  <link rel="icon" type="image/png" href="assets/portfolio_icon.png">
+  
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>Denxi's Portfolio</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+
+    <a class="download-resume-btn" href="assets/Denxi_Resume (10).pdf" target="_blank" download="denxi_fenn_resume.pdf">Download my resume</a>
+    <a class="contact-me-btn" href="contact.html" target="_blank">Contact</a>
+
+    <h1 class="small-text"> Hello, my name is</h1>
   <header>
-    <h1>🌸 Denxi's Portfolio</h1>
-    <p>Creative Developer & Crystal Witch</p>
+    <h2 class="large-text">Denxi Fenn</h1>
+    <p class="intro-para">Im a year 3 Computer science undergraduate at Singapore Management University (SMU). 
+        I'm mainly interested in using html, css and javascript to design and bring ideas to life. <br>
+        Hope you enjoy exploring my portfolio!
+    
+    </p>
   </header>
 
-  <section>
-    <h2>🌟 Projects</h2>
-    <ul>
-      <li><a href="CrystalWillow/index.html" target="_blank">🔮 Crystal Willow</a></li>
-      <!-- Add more projects here -->
-    </ul>
+   <div class="social-icons">
+    <a href="https://github.com/denxifenn" target="_blank"><i class="fab fa-github"></i></a>
+    <a href="www.linkedin.com/in/denxi-fenn-99951b292" target="_blank"><i class="fab fa-linkedin"></i></a>
+   </div>
+
+   <section data-aos="fade-up">
+    <h2 class="skills-text">Skills</h2>
+    
+    <div class="skills-logos">
+      <div class="logo-block">
+       <i class="fab fa-html5"></i>
+       <p>HTML</p>
+      </div>
+  
+      <div class="logo-block">
+       <i class="fab fa-css3-alt"></i>
+       <p >CSS</p>
+      </div>
+
+      <div class="logo-block">
+       <i class="fab fa-js-square"></i>
+       <p>JavaScript</p>
+      </div>
+
+      <div class="logo-block">
+       <i class="fab fa-java"></i>
+       <p>Java</p>
+      </div>
+
+      <div>
+       <img src="assets/Figma.png" class="logo-image">
+       <p>Figma</p>
+      </div>
+    </div>
+    </div>
+
+     
   </section>
 
-  <footer>
+  <section data-aos="fade-up">
+    <h2 class="projects-text">Projects</h2>
+
+    <ul>
+      <a href="https://denxifenn.github.io/crystal-willow/" target="_blank" class="project-button"></a>
+      <p class="project-name">🔮 Crystal Willow</p>  
+      <!-- Add more projects here -->
+    </ul>
+
+    <p class="project-desc"> My very first website! It was made with HTML, CSS and JavaScript. The purpose of this project was to learn how to use these languages to bring my idea to life. I wanted to create an aesthetic crystal catalogue, organized into categories based on their properties. This website showcases my ability to work with different technologies and I used the knowledge gained from this project to create other websites such as this one. 
+    
+    </p>
+  </section>
+
+  
+
+
+  <footer class="footer">
     <p>© 2025 Denxi</p>
   </footer>
 </body>
+
+
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+
 </html>
